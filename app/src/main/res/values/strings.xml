@@ -16,4 +16,5 @@
     <string name="cero">0</string>
     <string name="igual">=</string>
     <string name="division">/</string>
+    <string name="ac">AC</string>
 </resources>

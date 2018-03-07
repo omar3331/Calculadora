@@ -21,10 +21,12 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="112dp">
+        android:layout_height="0dp"
+        android:layout_weight="1">
 
         <Button
-            android:layout_width="88dp"
+            android:layout_width="0dp"
+            android:layout_weight="0.25"
             android:layout_height="match_parent"
             android:layout_margin="1dp"
             android:background="@color/blue"
@@ -35,7 +37,8 @@
             android:onClick="Click" />
 
         <Button
-            android:layout_width="88dp"
+            android:layout_width="0dp"
+            android:layout_weight="0.25"
             android:layout_height="match_parent"
             android:layout_margin="1dp"
             android:background="@color/blue"
@@ -46,7 +49,8 @@
             android:onClick="Click"/>
 
         <Button
-            android:layout_width="88dp"
+            android:layout_width="0dp"
+            android:layout_weight="0.25"
             android:layout_height="match_parent"
             android:layout_margin="1dp"
             android:background="@color/blue"
@@ -56,25 +60,47 @@
             android:id="@+id/bNueve"
             android:onClick="Click"/>
 
-        <Button
-            android:layout_width="88dp"
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="0.25"
             android:layout_height="match_parent"
-            android:layout_margin="1dp"
-            android:background="@color/blue"
-            android:text="@string/suma"
-            android:textColor="@color/white"
-            android:textSize="20sp"
-            android:id="@+id/bSuma"
-            android:onClick="Click"/>
+            android:orientation="vertical">
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_weight="0.5"
+                android:layout_height="0dp"
+                android:layout_margin="1dp"
+                android:background="@color/blue"
+                android:text="@string/ac"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                android:id="@+id/bAc"
+                android:onClick="Click"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_weight="0.5"
+                android:layout_height="0dp"
+                android:layout_margin="1dp"
+                android:background="@color/blue"
+                android:text="@string/suma"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                android:id="@+id/bSuma"
+                android:onClick="Click"/>
+
+        </LinearLayout>
 
     </LinearLayout>
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="112dp">
+        android:layout_height="0dp"
+        android:layout_weight="1">
 
         <Button
-            android:layout_width="88dp"
+            android:layout_width="0dp"
+            android:layout_weight="0.25"
             android:layout_height="match_parent"
             android:layout_margin="1dp"
             android:background="@color/blue"
@@ -85,7 +111,8 @@
             android:onClick="Click"/>
 
         <Button
-            android:layout_width="88dp"
+            android:layout_width="0dp"
+            android:layout_weight="0.25"
             android:layout_height="match_parent"
             android:layout_margin="1dp"
             android:background="@color/blue"
@@ -96,7 +123,8 @@
             android:onClick="Click"/>
 
         <Button
-            android:layout_width="88dp"
+            android:layout_width="0dp"
+            android:layout_weight="0.25"
             android:layout_height="match_parent"
             android:layout_margin="1dp"
             android:background="@color/blue"
@@ -107,7 +135,8 @@
             android:onClick="Click"/>
 
         <Button
-            android:layout_width="88dp"
+            android:layout_width="0dp"
+            android:layout_weight="0.25"
             android:layout_height="match_parent"
             android:layout_margin="1dp"
             android:background="@color/blue"
@@ -121,10 +150,12 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="112dp">
+        android:layout_height="0dp"
+        android:layout_weight="1">
 
         <Button
-            android:layout_width="88dp"
+            android:layout_width="0dp"
+            android:layout_weight="0.25"
             android:layout_height="match_parent"
             android:background="@color/blue"
             android:text="@string/uno"
@@ -135,7 +166,8 @@
             android:onClick="Click"/>
 
         <Button
-            android:layout_width="88dp"
+            android:layout_width="0dp"
+            android:layout_weight="0.25"
             android:layout_height="match_parent"
             android:background="@color/blue"
             android:text="@string/dos"
@@ -146,7 +178,8 @@
             android:onClick="Click"/>
 
         <Button
-            android:layout_width="88dp"
+            android:layout_width="0dp"
+            android:layout_weight="0.25"
             android:layout_height="match_parent"
             android:background="@color/blue"
             android:text="@string/tres"
@@ -157,7 +190,8 @@
             android:onClick="Click"/>
 
         <Button
-            android:layout_width="88dp"
+            android:layout_width="0dp"
+            android:layout_weight="0.25"
             android:layout_height="match_parent"
             android:layout_margin="1dp"
             android:background="@color/blue"
@@ -171,10 +205,12 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="112dp">
+        android:layout_height="0dp"
+        android:layout_weight="1">
 
         <Button
-            android:layout_width="88dp"
+            android:layout_width="0dp"
+            android:layout_weight="0.25"
             android:layout_height="match_parent"
             android:layout_margin="1dp"
             android:background="@color/blue"
@@ -185,7 +221,8 @@
             android:onClick="Click"/>
 
         <Button
-            android:layout_width="88dp"
+            android:layout_width="0dp"
+            android:layout_weight="0.25"
             android:layout_height="match_parent"
             android:layout_margin="1dp"
             android:background="@color/blue"
@@ -196,7 +233,8 @@
             android:onClick="Click"/>
 
         <Button
-            android:layout_width="88dp"
+            android:layout_width="0dp"
+            android:layout_weight="0.25"
             android:layout_height="match_parent"
             android:layout_margin="1dp"
             android:background="@color/blue"
@@ -208,7 +246,8 @@
 
 
         <Button
-            android:layout_width="88dp"
+            android:layout_width="0dp"
+            android:layout_weight="0.25"
             android:layout_height="match_parent"
             android:layout_margin="1dp"
             android:background="@color/blue"
